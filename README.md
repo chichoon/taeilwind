@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 태일아 진화시켜조 (아구아구)
 
+[이거 하려고 만든 레포지토리 (연습용주의)](https://github.com/42-world/rookies-Frontend/issues/9)
+
 ## Getting Started
 
 First, run the development server:
