@@ -1,0 +1,1 @@
+export { FtIcon } from "./FtIcon";
