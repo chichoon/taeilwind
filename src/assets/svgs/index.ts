@@ -5,3 +5,7 @@ export { LabelIcon } from "./LabelIcon";
 export { AccelIcon } from "./AccelIcon";
 export { TrophyIcon } from "./TrophyIcon";
 export { TriangleIcon } from "./TriangleIcon";
+export { BriefcaseIcon } from "./BriefcaseIcon";
+export { GlobeIcon } from "./GlobeIcon";
+export { PencilIcon } from "./PencilIcon";
+export { MegaphoneIcon } from "./MegaphoneIcon";
