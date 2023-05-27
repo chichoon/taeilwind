@@ -4,3 +4,4 @@ export { BellIcon } from "./BellIcon";
 export { LabelIcon } from "./LabelIcon";
 export { AccelIcon } from "./AccelIcon";
 export { TrophyIcon } from "./TrophyIcon";
+export { TriangleIcon } from "./TriangleIcon";
