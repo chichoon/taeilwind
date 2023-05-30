@@ -6,7 +6,7 @@ export const StudentInfoLeft = () => {
     { title: "Grade", data: "Member" },
   ];
   return (
-    <ul className="bg-black_transparent rounded-sm w-[400px] ml-4 px-3 flex flex-col justify-center items-center min-h-[234px]">
+    <ul className="bg-black_transparent rounded-md w-[400px] ml-4 px-3 flex flex-col justify-center items-center min-h-[234px]">
       {data.map((d) => (
         <li key={d.title} className="w-[143px] flex flex-row items-center py-2">
           <h3 className="flex-1 text-lee">{d.title}</h3>
