@@ -1,14 +1,15 @@
-import { NavBar, StudentInfo, TopBar } from "@/components";
+import { MainComponent, NavBar, StudentInfo, TopBar } from "@/components";
 
 const Page = () => {
   return (
-    <main className="w-screen h-screen flex flex-row">
+    <div className="w-screen h-screen flex flex-row">
       <NavBar />
-      <div className="flex-1">
+      <main className="flex-1 overflow-y-scroll overflow-x-hidden">
         <TopBar />
         <StudentInfo />
-      </div>
-    </main>
+        <MainComponent />
+      </main>
+    </div>
   );
 };
 
