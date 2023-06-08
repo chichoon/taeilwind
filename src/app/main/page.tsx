@@ -1,6 +1,4 @@
-import { NavBar } from "@/components";
-import { StudentInfo } from "@/components/StudentInfo";
-import { TopBar } from "@/components/TopBar.tsx";
+import { NavBar, StudentInfo, TopBar } from "@/components";
 
 const Page = () => {
   return (
