@@ -26,7 +26,7 @@ export const ElementLayout = ({ title, children, sideButtonList }: Props) => {
           </div>
         )}
       </div>
-      {children}
+      <div className="h-[200px] overflow-y-scroll">{children}</div>
     </section>
   );
 };
