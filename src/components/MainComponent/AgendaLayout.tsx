@@ -20,12 +20,12 @@ export const AgendaLayout = ({
   isRegistered,
 }: Props) => {
   return (
-    <div className="flex flex-row items-center border border-primary">
+    <div className="flex flex-row items-center border border-primary mb-2 relative">
       <div className="flex flex-col items-center justify-center bg-primary px-6 py-2">
         <span className="text-white text-3xl">{date}</span>
         <span className="text-white text-base mt-[-8px]">{month}</span>
       </div>
-      <div className="flex flex-col px-4 py-2 relative">
+      <div className="flex flex-col px-4 py-2 ">
         <div className="flex flex-row items-center mb-1">
           <span className="font-bold text-primary mr-1.5 text-sm">Event</span>
           <span className="text-xs">{eventName}</span>
@@ -40,7 +40,7 @@ export const AgendaLayout = ({
         </div>
       </div>
       {isRegistered && (
-        <span className="absolute top-1 right-2 text-primary text-sm">
+        <span className="absolute top-1 right-2 text-primary text-xs">
           REGISTERED
         </span>
       )}
