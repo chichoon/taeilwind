@@ -2,14 +2,20 @@ import { AgendaLayout } from "./AgendaLayout";
 import { ElementLayout } from "./ElementLayout";
 
 export const MainComponent = () => {
-  const btnList = [
+  const agendaButtonList = [
     { title: "ALL EVENTS" },
     { title: "EVENT'S MARKS" },
     { title: "FILTERS", isDropdown: true },
   ];
+
+  const evaluationButtonList = [
+    { title: "HIDE", isDropdown: true },
+    { title: "FEEDBACK LOGS" },
+    { title: "MANAGE SLOTS" },
+  ];
   return (
     <div className="flex-1 grid grid-cols-2 p-5 gap-5 bg-background">
-      <ElementLayout title="AGENDA" sideButtonList={btnList}>
+      <ElementLayout title="AGENDA" sideButtonList={agendaButtonList}>
         <>
           <AgendaLayout
             date={12}
@@ -30,14 +36,14 @@ export const MainComponent = () => {
           />
         </>
       </ElementLayout>
-      <ElementLayout title="EVALUATIONS">
-        <span>ㅁㄴㅇ</span>
+      <ElementLayout title="EVALUATIONS" sideButtonList={evaluationButtonList}>
+        <></>
       </ElementLayout>
       <ElementLayout title="LOGTIME">
-        <span>ㅁㄴㅇ</span>
+        <></>
       </ElementLayout>
       <ElementLayout title="EXPERTISES">
-        <span>ㅁㄴㅇ</span>
+        <></>
       </ElementLayout>
     </div>
   );
