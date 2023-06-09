@@ -8,7 +8,7 @@ interface Props {
 
 export const ElementLayout = ({ title, children, sideButtonList }: Props) => {
   return (
-    <section className="bg-white p-6">
+    <section className="bg-white py-6 px-8">
       <div className="flex flex-row justify-between items-center mb-5">
         <h3 className="text-text-dark text-xs font-extrabold">{title}</h3>
         {sideButtonList && (
