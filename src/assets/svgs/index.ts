@@ -9,3 +9,6 @@ export { BriefcaseIcon } from "./BriefcaseIcon";
 export { GlobeIcon } from "./GlobeIcon";
 export { PencilIcon } from "./PencilIcon";
 export { MegaphoneIcon } from "./MegaphoneIcon";
+export { ClockIcon } from "./ClockIcon";
+export { CalendarIcon } from "./CalendarIcon";
+export { PlaceIcon } from "./PlaceIcon";
